@@ -1,0 +1,145 @@
+body {
+	background: #8996a6; /*url(/img/gllacy-index-1200.jpg) no-repeat center 0px;*/
+
+	font-family: roboto, bold;
+}
+
+li{
+	display: inline;
+	list-style-type: none;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+	background: rgba(100,48,100,0.3);
+}
+
+.header {
+	margin-bottom: 286px;
+
+	background: rgba(100,100,100,0.3);
+}
+
+.header-logo {
+	float: left;
+	width: 170px;
+}
+
+.header-navigation {
+	float: left;
+	width: 390px;
+
+}
+
+.user-block {
+	float: right;
+	width: 267px;
+	background: rgba(100,100,100,0.5);
+}
+
+
+
+span.content-title {
+	width: 665px;
+	text-align: center;
+
+	font-size: 60px;
+	color: white;
+}
+
+.content-left {
+	float: left;
+	width: 560px;
+	margin-left: 27px;
+	margin-right: 13px;
+}
+
+.content-right {
+	float: left;
+	width: 560px;
+	margin-left: 13px;
+	margin-right: 27px;
+}
+
+.content-hits {
+	float: left;
+	width: 267px;
+	margin-left: 13px;
+	margin-right: 13px;
+}
+
+.content-hits:nth-child(5) {
+	margin-left: 27px;
+}
+
+.content-hits:nth-child(8) {
+	margin-right: 27px;
+}
+
+.content-catalog {
+	float: left;
+	width: 267px;
+	height: 325px;
+	margin-left: 13px;
+	margin-right: 13px;
+}
+
+.content-catalog:nth-child(4n-1) {
+	margin-left: 27px;
+}
+
+.content-catalog:nth-child(4n+2) {
+	margin-right: 27px;
+}
+
+.content-features {
+	width: 1146px;
+	margin-left: 27px;
+	margin-right: 27px;
+}
+
+
+.content-news-left {
+	float: left;
+	width: 560px;
+	margin-left: 27px;
+	margin-right: 13px;
+}
+
+.content-rss-right {
+	float: left;
+	width: 560px;
+	margin-left: 13px;
+	margin-right: 27px;
+}
+
+
+.footer {
+	background: rgba(0,0,100,0.4);
+}
+
+.footer-social {
+	float: left;
+	margin-left: 27px; 
+	margin-right: 26px;
+	width: 267px;
+}
+
+.footer-middle {
+	float: left;
+	width: 560px;
+}
+
+.footer-dev {
+	float: right;
+	margin-left: 26px; 
+	margin-right: 27px;
+	width: 267px;
+}
