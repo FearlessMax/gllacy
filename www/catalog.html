@@ -8,7 +8,7 @@
 
 
 <body>
-	<header class="header container clearfix">  <!--  Хэддер страницы  -->
+	<header class="header1 container clearfix">  <!--  Хэддер страницы  -->
 			<img class="header-logo" src="img/header-logo.png" width="154" height="64">
 	
 			<nav class="header-navigation">
@@ -41,7 +41,57 @@
 
 		<h1 class="title">Сливочное мороженое</h1>
 
-		<div class="content-catalog">
+		<form class="sorting" action="" method="get">  <!--  Сортировка  -->
+			<fieldset>
+				<legend>Сортировка</legend>
+				<select>
+					<option>По популярности</option>
+					<option>По цене</option>
+					<option>По массе</option>
+				</select>
+			</fieldset>
+
+			<fieldset>
+				<legend>Цена</legend>
+			</fieldset>
+
+			<fieldset>
+				<legend>Жирность</legend>
+				<label for="fat-content-0">0%</label>
+				<input id="fat-content-0" type="radio" name="fat-content" value="0%">
+
+				<label for="fat-content-down-10">до 10%</label>
+				<input id="fat-content-down-10" type="radio" name="fat-content" value="до 10%">
+
+				<label for="fat-content-down-30">до 30%</label>
+				<input id="fat-content-down-30" type="radio" name="fat-content" value="до 30%">
+
+				<label for="fat-content-up-30">выше 30%</label>
+				<input id="fat-content-up-30" type="radio" name="fat-content" value="выше 30%">
+			</fieldset>
+
+			<fieldset>
+				<legend>Наполнители</legend>
+				<label for="btn-choc">Шоколадная</label>
+				<input id="btn-choc" type="checkbox" name="Шоколадная">
+
+				<label for="btn-shug">Сахарные присыпки</label>
+				<input id="btn-shug" type="checkbox" name="Сахарные присыпки">
+
+				<label for="btn-fruit">Фрукты</label>
+				<input id="btn-fruit" type="checkbox" name="Фрукты">
+
+				<label for="btn-sirop">Сиропы</label>
+				<input id="btn-sirop" type="checkbox" name="Сиропы">
+
+				<label for="btn-djem">Джемы</label>
+				<input id="btn-djem" type="checkbox" name="Джемы">
+			</fieldset>
+			
+			<button type="submit">Показать</button>
+		</form>
+
+		<div class="content-catalog">  <!--  Предметы каталога  -->
 			<img class="content-catalog-pic" src="img/hits1.jpg" width="267" height="267" alt="">
 			<span class="content-catalog-price">310р/кг</span>
 			<span class="content-catalog-title">Сливочное с апельсиновым джемом и цитрусовой стружкой</span>
@@ -112,7 +162,6 @@
 			<span class="content-catalog-price">420р/кг</span>
 			<span class="content-catalog-title">Сливочное с мятным сиропом</span>
 		</div>
-
 	</main>
 
 
@@ -133,7 +182,7 @@
 		</div>
 
 		<div class="footer-dev">
-			<img class="dev-logo" src="" width="" height="" alt="">
+			<img class="dev-logo" src="img/dev-logo.svg" alt="">
 			<span>Сделано в <a href="https://htmlacademy.ru">HTML Academy</a> (c) 2017</span>
 		</div>
 	</footer>
